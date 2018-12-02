@@ -14,14 +14,14 @@ def miles_to_feet(miles):
 # Student should not change this code.
 
 print('Problem 1:\n')
-def test(miles):
+def test_1(miles):
     print (str(miles) + " miles equals,")
     print (str(miles_to_feet(miles)) + " feet.\n")
     
 
-test(13)
-test(57)
-test(82.67)
+test_1(13)
+test_1(57)
+test_1(82.67)
 print ('--------------------------------------\n')
 
 ###################################################
@@ -50,16 +50,16 @@ def total_seconds(hours, minutes, seconds):
 # Student should not change this code.
 print('Problem 2:\n')
 
-def test(hours, minutes, seconds):
+def test_2(hours, minutes, seconds):
     """Tests the total_seconds functions."""
     
     print (str(hours) + " hours, " + str(minutes) + " minutes, and,")
     print (str(seconds) + " seconds totals to,")
     print (str(total_seconds(hours, minutes, seconds)) + " seconds.\n")
 
-test(7, 21, 37)
-test(10, 1, 7)
-test(1, 0, 1)
+test_2(7, 21, 37)
+test_2(10, 1, 7)
+test_2(1, 0, 1)
 
 print ('--------------------------------------\n')
 
@@ -88,14 +88,14 @@ def rectangle_perimeter(width, height):
 
 print('Problem 3:\n')
 
-def test(width, height):
+def test_3(width, height):
     print ("A rectangle " + str(width) + " inches wide and " + str(height)+ ',')
     print ("inches high has a perimeter of,")
     print (str(rectangle_perimeter(width, height)) + " inches.\n")
 
-test(4, 7)
-test(7, 4)
-test(10, 10)
+test_3(4, 7)
+test_3(7, 4)
+test_3(10, 10)
 print ('--------------------------------------\n')
 
 ###################################################
@@ -124,16 +124,16 @@ def rectangle_area(width, height):
 
 print('Problem 4:\n')
 
-def test(width, height):
+def test_4(width, height):
     """Tests the rectangle_area function."""
     
     print ("A rectangle " + str(width) + " inches wide and " + str(height)+',')
     print ("inches high has an area of,")
     print (str(rectangle_area(width, height)) + " square inches.\n")
 
-test(4, 7)
-test(7, 4)
-test(10, 10)
+test_4(4, 7)
+test_4(7, 4)
+test_4(10, 10)
 
 print ('--------------------------------------\n')
     
@@ -163,14 +163,14 @@ def circle_circumference(radius):
 
 print('Problem 5:\n')
 
-def test(radius):
+def test_5(radius):
     print ("A circle with a radius of " + str(radius)+',')
     print ("inches has a circumference of,")
     print (str(circle_circumference(radius)) + " inches.\n")
 
-test(8)
-test(3)
-test(12.9)
+test_5(8)
+test_5(3)
+test_5(12.9)
 
 print ('--------------------------------------\n')
 
@@ -200,14 +200,14 @@ def circle_area(radius):
 
 print('Problem 6:\n')
 
-def test(radius):
+def test_6(radius):
     print ("A circle with a radius of " + str(radius)+',')
     print ("inches has an area of,")
     print (str(circle_area(radius)) + " square inches.\n")
 
-test(8)
-test(3)
-test(12.9)
+test_6(8)
+test_6(3)
+test_6(12.9)
 
 print ('--------------------------------------\n')
 
@@ -236,7 +236,7 @@ def future_value(present_value, annual_rate, years):
 
 print('Problem 7:\n')
 
-def test(present_value, annual_rate, years):
+def test_7(present_value, annual_rate, years):
     """Tests the future_value function."""
     
     print ("The future value of $" + str(present_value) + " in " + str(years)+',')
@@ -248,9 +248,9 @@ def test(present_value, annual_rate, years):
 # Tests
 # Student should uncomment ONLY ONE of the following at a time.
 
-test(1000, 7, 10)
-test(200, 4, 5)
-test(1000, 3, 20)
+test_7(1000, 7, 10)
+test_7(200, 4, 5)
+test_7(1000, 3, 20)
 
 print ('--------------------------------------\n')
 
@@ -279,12 +279,12 @@ def name_tag(first_name, last_name):
 
 print('Problem 8:\n')
 
-def test(first_name, last_name):
+def test_8(first_name, last_name):
     print (name_tag(first_name, last_name))
     
-test("Joe", "Warren")
-test("Scott", "Rixner")
-test("John", "Greiner")
+test_8("Joe", "Warren")
+test_8("Scott", "Rixner")
+test_8("John", "Greiner")
 
 print ('--------------------------------------\n')
 
@@ -313,12 +313,12 @@ def name_and_age(name, age):
 
 print('Problem 9:\n')
       
-def test(name, age):
+def test_9(name, age):
     print (name_and_age(name, age))
     
-test("Joe Warren", 52)
-test("Scott Rixner", 40)
-test("John Greiner", 46)
+test_9("Joe Warren", 52)
+test_9("Scott Rixner", 40)
+test_9("John Greiner", 46)
 
 print ('--------------------------------------\n')
 
@@ -349,14 +349,14 @@ def point_distance(x0, y0, x1, y1):
 
 print('Problem 10:\n')
 
-def test(x0, y0, x1, y1):
+def test_10(x0, y0, x1, y1):
     print ("The distance from (" + str(x0) + ", " + str(y0) + ") to,")
     print ("(" + str(x1) + ", " + str(y1) + ") is,")
     print (str(point_distance(x0, y0, x1, y1)) + ".\n")
 
-test(2, 2, 5, 6)
-test(1, 1, 2, 2)
-test(0, 0, 3, 4)
+test_10(2, 2, 5, 6)
+test_10(1, 1, 2, 2)
+test_10(0, 0, 3, 4)
 
 print ('--------------------------------------\n')
 
@@ -393,15 +393,15 @@ def triangle_area(x0, y0, x1, y1, x2, y2):
 
 print('Problem 11:\n')
 
-def test(x0, y0, x1, y1, x2, y2):
+def test_11(x0, y0, x1, y1, x2, y2):
     print ("A triangle with vertices (" + str(x0) + "," + str(y0) + "),")
     print ("(" + str(x1) + "," + str(y1) + "), and," +
      "(" + str(x2) + "," + str(y2) + ") has an area of,")
     print (str(triangle_area(x0, y0, x1, y1, x2, y2)) + ".\n")
 
-test(0, 0, 3, 4, 1, 1)
-test(-2, 4, 1, 6, 2, 1)
-test(10, 0, 0, 0, 0, 10)
+test_11(0, 0, 3, 4, 1, 1)
+test_11(-2, 4, 1, 6, 2, 1)
+test_11(10, 0, 0, 0, 0, 10)
 
 print ('--------------------------------------\n')
 
